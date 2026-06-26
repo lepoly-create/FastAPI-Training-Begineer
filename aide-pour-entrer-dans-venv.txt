@@ -1,0 +1,3 @@
+>>venv/Scripts/activate
+
+vous devrez etre dans la racine du projet ou bien dans le dossier qui contient le dossier venv

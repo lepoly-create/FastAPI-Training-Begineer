@@ -1,0 +1,10 @@
+Bon à savoir : Si le code de statut commence par 5, c'est une erreur du côté du serveur, donc vous ne pouvez a priori rien y faire (500 par exemple)
+
+Si le code de statut commence par 4, c'est une erreur du côté du client HTTP (donc vous) : 404 page non trouvée (mauvaise adresse), 403 accès refusé (besoin de se connecter), …
+
+Si le code de statut commence par 3, le serveur indique une redirection (changement d'adresse)
+
+Si le code de statut commence par 2, c'est que tout va bien
+
+Si le code de statut commence par 1, cela indique juste la réception d'une information
+

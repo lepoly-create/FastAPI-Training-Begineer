@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+
+    <!--Nous construisons un lien dynamique grâce à la fonction url_for.
+    Cette fonction prend en paramètres le nom de la route,
+    public dans notre cas (le nom que nous avions donné plus haut,
+    lors du app.mount) et l'emplacement du fichier, path='/styles.css', qu'il nous restera à créer.
+     Avec Jinja, tout ce qui est entre {{ et }} sera affiché dans le code HTML.-->
+    <link href="{{ url_for('public', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1>Home title</h1>
+<p>Current url: <strong>{{ request.url }}</strong></p>
+
+</body>
+</html>

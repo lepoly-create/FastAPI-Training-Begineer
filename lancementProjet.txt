@@ -1,0 +1,7 @@
+ uvicorn app.main:app --reload --reload-dir app
+
+ >>uvicorn app.main:app --reload
+
+ pour activer l'environnement virtuel, il faut faire
+ >> venv/Scripts/activate
+ depuis la rqacine
